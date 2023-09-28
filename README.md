@@ -38,7 +38,7 @@ class WhoAmI:
     print(f"🎮 My hobby is doing {self.hobby} at some time to fill my free time.")
     print(f"😎 My favorite tech stacks is:\n{json.dumps(self.tech_stacks, indent=2)}")
 
-Me = WhoAmI("Wahyu Priambodo", 20, "He | Male", "Indonesian", "college student at State Polytechnic of Jakarta (PNJ)", "back-end development", "bug hunting or CTF challenges", {"Langs": ["C++", "Java", "Python", "PHP", "JavaScript"], "Db": ["MySQL", "MongoDB"], "Tools": ["Docker", "VirtualBox", "VSCode"], "OSes": {"Hacker mode": "Kali Linux", "Daily-based": "Ubuntu GNOME"}})
+Me = WhoAmI("Wahyu Priambodo", 20, "He | Him", "Indonesian", "college student at State Polytechnic of Jakarta (PNJ)", "back-end development", "bug hunting or CTF challenges", {"Langs": ["C++", "Java", "Python", "PHP", "JavaScript"], "Db": ["MySQL", "MongoDB"], "Tools": ["Docker", "VirtualBox", "VSCode"], "OSes": {"Hacker mode": "Kali Linux", "Daily-based": "Ubuntu GNOME"}})
 Me.Introduction()
 ```
 
