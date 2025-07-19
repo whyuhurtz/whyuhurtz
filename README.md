@@ -1,77 +1,45 @@
 <div align="center">
-  <h1 align="center">Hi! Welcome to My World.</h1>
-  <img src="https://media.giphy.com/media/XKSPsk67cnCw0/giphy.gif" alt="Battle Programmer Shirase Pc GIF" width="300" height="200"/>
+  <h1 align="center">🤙 Yo, Welcome to My World.</h1>
   <img src="https://media.giphy.com/media/3Q2hJ4FLN1UvS/giphy.gif" alt="Work Computer GIF" width="300" height="200"/><br>
   <a href="https://www.codewars.com/users/wahyu-priambodo"><img src="https://www.codewars.com/users/wahyu-priambodo/badges/micro" alt="CodeWars"/></a>
   <a href="https://codeforces.com/profile/wahoyuz"><img src="https://img.shields.io/badge/wahoyuz-445f9d?&logo=Codeforces&logoColor=white" alt="CodeForces"/></a>
 </div>
 
-<h2>About Me</h2>
+## 👨🏻‍💻 A Bit About Me
 
-```python
-# whoami.py
-import json
-import base64
+- 🏫 College student at [State Polytechnic of Jakarta](https://tik.pnj.ac.id)
+- 🌟 Have a strong passion related to **System administrator**, **Infosec**, and **Back-end dev**.
+- 😴 In my free time, I usually do *vibe coding*, *playing some CTF challenges*, or just *sleep*.
+- 🎯 My career goals is to be a **Red Team Specialist** or **Pentester**.
 
-class WhoAmI:
-  def __init__(self, name, age, pronouns, country, current_job, interest, hobby, tech_stacks):
-    self.name = name
-    self.age = age
-    self.pronouns = pronouns
-    self.country = country
-    self.current_job = current_job
-    self.interest = interest
-    self.hobby = hobby
-    self.tech_stacks = tech_stacks
+## 💻 Tech Stack
 
-  def __secret_life(self):
-    x = "V2F0Y2hpbmcgYW4gYW5pbWUgOnY=".encode('ascii')
-    y = base64.b64decode(x).decode('ascii')
-    return y
+| Langs | Web Frameworks | Database |
+| :---: | :------------: | :------: |
+| ![Bash](https://custom-icon-badges.demolab.com/badge/-Bash-65955D.svg?style=flat-square&logo=bash&logoColor=white) ![C](https://custom-icon-badges.demolab.com/badge/-lang-0E2B5C.svg?style=flat-square&logo=c&logoColor=white) ![Python](https://custom-icon-badges.demolab.com/badge/-Python-1E425E.svg?style=flat-square&logo=python&logoColor=white) ![Java](https://custom-icon-badges.demolab.com/badge/-Java-E76E00.svg?style=flat-square&logo=java&logoColor=white) ![Go](https://custom-icon-badges.demolab.com/badge/-Golang-79D4FD.svg?style=flat-square&logo=go&logoColor=white) | ![Flask](https://custom-icon-badges.demolab.com/badge/-Flask-40808B.svg?style=flat-square&logo=flask&logoColor=white) ![FastAPI](https://custom-icon-badges.demolab.com/badge/-FastAPI-4F9685.svg?style=flat-square&logo=fastapi&logoColor=white) ![Django](https://custom-icon-badges.demolab.com/badge/-Django-264B33.svg?style=flat-square&logo=django&logoColor=white) | ![Mongo](https://custom-icon-badges.demolab.com/badge/-MongoDB-091F2B.svg?style=flat-square&logo=mongodb&logoColor=white) ![PostgreSQL](https://custom-icon-badges.demolab.com/badge/-PostgreSQL-336791.svg?style=flat-square&logo=postgresql&logoColor=white) |
 
-  def Introduction(self):
-    print(f"👋 Hi, my name is {self.name} and I'm now {self.age} yo.")
-    print(f"👦 My pronouns is {self.pronouns}.")
-    print(f"🇮🇩 My nationality is {self.country}.")
-    print(f"👨‍🎓 Currently I'm a {self.current_job}.")
-    print(f"🧑‍💻 I'm very interesting on a {self.interest}.")
-    print(f"🎮 My hobby is doing {self.hobby} at some time to fill my free time.")
-    print(f"😎 My favorite tech stacks is:\n{json.dumps(self.tech_stacks, indent=2)}")
+## 🛠️ Toolkit
 
-Me = WhoAmI("Wahyu Priambodo", 21, "He | Him", "Indonesian",
-            "college student at Politeknik Negeri Jakarta (Jakarta State Polytechnic)", 
-            [ "sysadmin", "bug bounty hunting", "ctf" ],
-            "Mobile Legends",
-            {
-                "Langs": 
-                [
-                    "C++", 
-                    "Java", 
-                    "Python", 
-                    "PHP",
-                    "JavaScript"
-                ],
-                "Db": 
-                [
-                    "MySQL",
-                    "MongoDB"
-                ],
-                "Tools":
-                [
-                    "Docker",
-                    "VSCode",
-                    "Burp Suite"
-                ]
-            }
-        )
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width=30 height=30/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width=30 height=30/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width=30 height=30/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" widht=30 height=30/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain-wordmark.svg" width=30 height=30/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original-wordmark.svg" width=30 height=30/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" width=30 height=30/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vagrant/vagrant-original.svg" width=30 height=30/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/BurpSuite_Comunity_Edition.svg" width=30 height=30>
+</div>
 
-Me.Introduction()
-```
+## 🔗 Contact
 
-<h2>Connect with me :D</h2>
-<a href="mailto:wahyupriambodo.net@gmail.com"><img src="https://img.shields.io/badge/Wahyu_Priambodo-D14836?&logo=gmail&logoColor=white" alt="Gmail"/></a>
-<a href="https://www.linkedin.com/in/wahyu-priambodo"><img src="https://img.shields.io/badge/Wahyu_Priambodo-%230077B5.svg?&logo=LinkedIn&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.instagram.com/whyuhurtz/"><img src="https://img.shields.io/badge/@whyuhurtz-%23E4405F.svg?&logo=Instagram&logoColor=white" alt="Instagram"/></a>
-<a href="https://x.com/whyuhurtz"><img src="https://img.shields.io/badge/@whyuhurtz-%231DA1F2.svg?&logo=X&logoColor=white" alt="Twitter"/></a>
-<a href="https://www.facebook.com/whyuhurtz/"><img src="https://img.shields.io/badge/whyuhurtz-%231877F2.svg?&logo=Facebook&logoColor=white" alt="Facebook"/></a>
+<a href="mailto:wahyupriambodo.net@gmail.com"><img src="https://img.shields.io/badge/wahyupriambodo.sec@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&label=Gmail" alt="Gmail"/></a>
+<br/>
+<a href="https://www.linkedin.com/in/wahyu-priambodo"><img src="https://img.shields.io/badge/wahyu_priambodo-Linkedin?style=for-the-badge&logo=linkedin&logoColor=white&label=Linkedin&color=0A66C2" alt="LinkedIn"/></a>
+<br/>
+<a href="https://www.instagram.com/whyuhurtz/"><img src="https://img.shields.io/badge/whyuhurtz-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white&label=Instagram" alt="Instagram"/></a>
 
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=whyuhurtz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide=issues)
